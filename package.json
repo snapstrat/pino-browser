@@ -1,0 +1,19 @@
+{
+  "name": "pino-browser",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "pino": "^7.6.5"
+  },
+  "devDependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^2.0.1-rc.2",
+    "esbuild": "^0.14.18"
+  },
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "dependenciesMeta": {
+    "pino@7.6.5": {
+      "unplugged": true
+    }
+  }
+}
